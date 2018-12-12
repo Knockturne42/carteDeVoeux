@@ -9,20 +9,15 @@ body, html {
 }
 
 .moon {
-/*  width: 20%;
+  width: 15%;
   height: 100%;
   position: absolute;
-  top: 300px;
-  right: -600px;
-  bottom: 0;
+  top: 100px;
+  left: 100px;
   overflow: hidden;
-  background-image: url('../img/santa.svg');
+  background-image: url('../img/lune.png');
   background-size: 80% auto;
   background-repeat: no-repeat;
-  -webkit-animation: santaMove 10s linear infinite;
-          animation: santaMove 10s linear infinite;
-    -webkit-perspective: 100px;
-          perspective: 100px;*/
 }
 
 .santa {
@@ -34,7 +29,7 @@ body, html {
 	bottom: 0;
 	overflow: hidden;
 	background-image: url('../img/santa.svg');
-	background-size: 80% auto;
+	background-size: 100% auto;
 	background-repeat: no-repeat;
 	-webkit-animation: santaMove 10s linear infinite;
         	animation: santaMove 10s linear infinite;
