@@ -1,0 +1,364 @@
+/* SVG animation --------------------------------------------------------------------------*/
+svg g {
+    opacity: 0;
+    max-width: 100%;
+}
+.number-0 {
+    opacity: 1;
+}
+
+/*number 2*/
+
+.number-9 {
+    -o-animation: show 1s 2s;
+    animation: show 1s 2s;
+    -webkit-animation: show 1s 2s;
+    -moz-animation: show 1s 2s;
+    -ms-animation: show 1s 2s;
+}
+.number-8 {
+    -o-animation: show 1s 3s;
+    animation: show 1s 3s;
+    -webkit-animation: show 1s 3s;
+    -moz-animation: show 1s 3s;
+    -ms-animation: show 1s 3s;
+}
+.number-7 {
+    -o-animation: show 1s 4s;
+    animation: show 1s 4s;
+    -webkit-animation: show 1s 4s;
+    -moz-animation: show 1s 4s;
+    -ms-animation: show 1s 4s;
+}
+
+.number-6 {
+    -o-animation: show 1s 5s;
+    animation: show 1s 55s;
+    -webkit-animation: show 1s 5s;
+    -moz-animation: show 1s 5s;
+    -ms-animation: show 1s 5s;
+}
+.number-5 {
+    -o-animation: show 1s 6s;
+    animation: show 1s 6s;
+    -webkit-animation: show 1s 6s;
+    -moz-animation: show 1s 6s;
+    -ms-animation: show 1s 6s;
+}
+.number-4 {
+    -o-animation: show 1s 7s;
+    animation: show 1s 7s;
+    -webkit-animation: show 1s 7;
+    -moz-animation: show 1s 7s;
+    -ms-animation: show 1s 7s;
+}
+.number-3 {
+    -o-animation: show 1s 8s;
+    animation: show 1s 8s;
+    -webkit-animation: show 1s 8s;
+    -moz-animation: show 1s 8s;
+    -ms-animation: show 1s 8s;
+}
+.number-2 {
+    -o-animation: show 20s 9s;
+    animation: show 20s 9s;
+    -webkit-animation: show 20s 9s;
+    -moz-animation: show 20s 9s;
+    -ms-animation: show 20s 9s;
+}
+.number02-0 {
+    -o-animation: show 1s 1s;
+    animation: show 1s 1s;
+    -webkit-animation: show 1s 1s;
+    -moz-animation: show 1s 1s;
+    -ms-animation: show 1s 1s;
+}
+
+/*number 0*/
+.number0-0 {
+    opacity: 1;
+}
+.number0-9 {
+    -o-animation: show 1s 1s;
+    animation: show 1s 1s;
+    -webkit-animation: show 1s 1s;
+    -moz-animation: show 1s 1s;
+    -ms-animation: show 1s 1s;
+}
+.number0-8 {
+    -o-animation: show 1s 2s;
+    animation: show 1s 2s;
+    -webkit-animation: show 1s 2s;
+    -moz-animation: show 1s 2s;
+    -ms-animation: show 1s 2s;
+}
+.number0-7 {
+    -o-animation: show 1s 3s;
+    animation: show 1s 3s;
+    -webkit-animation: show 1s 3s;
+    -moz-animation: show 1s 3s;
+    -ms-animation: show 1s 3s;
+}
+
+.number0-6 {
+    -o-animation: show 1s 4s;
+    animation: show 1s 4s;
+    -webkit-animation: show 1s 4s;
+    -moz-animation: show 1s 4s;
+    -ms-animation: show 1s 4s;
+}
+.number0-5 {
+    -o-animation: show 1s 5s;
+    animation: show 1s 5s;
+    -webkit-animation: show 1s 5s;
+    -moz-animation: show 1s 5s;
+    -ms-animation: show 1s 5s;
+}
+.number0-4 {
+    -o-animation: show 1s 6s;
+    animation: show 1s 6s;
+    -webkit-animation: show 1s 6s;
+    -moz-animation: show 1s 6s;
+    -ms-animation: show 1s 6s;
+}
+.number0-3 {
+    -o-animation: show 1s 7s;
+    animation: show 1s 7s;
+    -webkit-animation: show 1s 7s;
+    -moz-animation: show 1s 7s;
+    -ms-animation: show 1s 7s;
+}
+.number0-2 {
+    -o-animation: show 1s 8s;
+    animation: show 1s 8s;
+    -webkit-animation: show 1s 8s;
+    -moz-animation: show 1s 8s;
+    -ms-animation: show 1s 8s;
+}
+.number0-1 {
+    -o-animation: show 1s 9s;
+    animation: show 1s 9s;
+    -webkit-animation: show 1s 9s;
+    -moz-animation: show 1s 9s;
+    -ms-animation: show 1s 9s;
+}
+.number00-0 {
+    -o-animation: show 20s 10s;
+    animation: show 20s 10s;
+    -webkit-animation: show 20s 10s;
+    -moz-animation: show 20s 10s;
+    -ms-animation: show 20s 10s;
+}
+
+/*number 1*/
+.number1-0 {
+    opacity: 1;
+}
+.number1-9 {
+    -o-animation: show 1s 1s;
+    animation: show 1s 1s;
+    -webkit-animation: show 1s 1s;
+    -moz-animation: show 1s 1s;
+    -ms-animation: show 1s 1s;
+}
+.number1-8 {
+    -o-animation: show 1s 2s;
+    animation: show 1s 2s;
+    -webkit-animation: show 1s 2s;
+    -moz-animation: show 1s 2s;
+    -ms-animation: show 1s 2s;
+}
+.number1-7 {
+    -o-animation: show 1s 3s;
+    animation: show 1s 3s;
+    -webkit-animation: show 1s 3s;
+    -moz-animation: show 1s 3s;
+    -ms-animation: show 1s 3s;
+}
+
+.number1-6 {
+    -o-animation: show 1s 4s;
+    animation: show 1s 4s;
+    -webkit-animation: show 1s 4s;
+    -moz-animation: show 1s 4s;
+    -ms-animation: show 1s 4s;
+}
+.number1-5 {
+    -o-animation: show 1s 5s;
+    animation: show 1s 5s;
+    -webkit-animation: show 1s 5s;
+    -moz-animation: show 1s 5s;
+    -ms-animation: show 1s 5s;
+}
+.number1-4 {
+    -o-animation: show 1s 6s;
+    animation: show 1s 6s;
+    -webkit-animation: show 1s 6s;
+    -moz-animation: show 1s 6s;
+    -ms-animation: show 1s 6s;
+}
+.number1-3 {
+    -o-animation: show 1s 7s;
+    animation: show 1s 7s;
+    -webkit-animation: show 1s 7s;
+    -moz-animation: show 1s 7s;
+    -ms-animation: show 1s 7s;
+}
+.number1-2 {
+    -o-animation: show 1s 8s;
+    animation: show 1s 8s;
+    -webkit-animation: show 1s 8s;
+    -moz-animation: show 1s 8s;
+    -ms-animation: show 1s 8s;
+}
+.number1-1 {
+    -o-animation: show 20s 9s;
+    animation: show 20s 9s;
+    -webkit-animation: show 20s 9s;
+    -moz-animation: show 20s 9s;
+    -ms-animation: show 20s 9s;
+}
+
+/*number 9*/
+.number9-0 {
+    opacity: 1;
+}
+.number9-9 {
+    -o-animation: show 20s 9s;
+    animation: show 20s 9s;
+    -webkit-animation: show 20s 9s;
+    -moz-animation: show 20s 9s;
+    -ms-animation: show 20s 9s;
+}
+.number9-8 {
+    -o-animation: show 1s 8s;
+    animation: show 1s 8s;
+    -webkit-animation: show 1s 8s;
+    -moz-animation: show 1s 8s;
+    -ms-animation: show 1s 8s;
+}
+.number9-7 {
+    -o-animation: show 1s 7s;
+    animation: show 1s 7s;
+    -webkit-animation: show 1s 7s;
+    -moz-animation: show 1s 7s;
+    -ms-animation: show 1s 7s;
+}
+
+.number9-6 {
+    -o-animation: show 1s 6s;
+    animation: show 1s 6s;
+    -webkit-animation: show 1s 6s;
+    -moz-animation: show 1s 6s;
+    -ms-animation: show 1s 6s;
+}
+.number9-5 {
+    -o-animation: show 1s 5s;
+    animation: show 1s 5s;
+    -webkit-animation: show 1s 5s;
+    -moz-animation: show 1s 5s;
+    -ms-animation: show 1s 5s;
+}
+.number9-4 {
+    -o-animation: show 1s 4s;
+    animation: show 1s 4s;
+    -webkit-animation: show 1s 4s;
+    -moz-animation: show 1s 4s;
+    -ms-animation: show 1s 4;
+}
+.number9-3 {
+    -o-animation: show 1s 3s;
+    animation: show 1s 3s;
+    -webkit-animation: show 1s 3s;
+    -moz-animation: show 1s 3s;
+    -ms-animation: show 1s 3;
+}
+.number9-2 {
+    -o-animation: show 1s 2s;
+    animation: show 1s 2s;
+    -webkit-animation: show 1s 2s;
+    -moz-animation: show 1s 2s;
+    -ms-animation: show 1s 2s;
+}
+.number9-1 {
+    -o-animation: show 1s 1s;
+    animation: show 1s 1s;
+    -webkit-animation: show 1s 1s;
+    -moz-animation: show 1s 1s;
+    -ms-animation: show 1s 1s;
+}
+
+@-webkit-keyframes show {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes show {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-ms-keyframes show {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-o-keyframes show {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.move {
+    width: auto;
+    height: 800px;
+    margin-left: -50%;
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 1; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 30s;
+    animation-iteration-count: 1;
+    z-index: 9;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {background-color:transparent; left:0px; top:0px;}
+    25%  {background-color:transparent; left:1000px; top:0px;}
+    50%  {background-color:transparent; left:1000px; top:200px;}
+    75%  {background-color:transparent; left:1000px; top:200px;}
+    100% {background-color:transparent; left:1500px; top:200px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color:transparent; left:0px; top:0px;}
+    25%  {background-color:transparent; left:1000px; top:0px;}
+    50%  {background-color:transparent; left:1000px; top:200px;}
+    75%  {background-color:transparent; left:1000px; top:200px;}
+    100% {background-color:transparent; left:1500px; top:200px;}
+}
+
+/* SVG animation --------------------------------------------------------------------------*/
