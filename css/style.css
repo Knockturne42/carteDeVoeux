@@ -169,7 +169,7 @@ body, html {
   position: relative;
   top: 99999px;
   transform-origin: 50% 100%;
-  animation: crawl 30s linear;
+  animation: crawl 120s linear;
 }
 
 .crawl > .title {
@@ -191,6 +191,10 @@ body, html {
 }
 
 .text img:nth-of-type(3){
+  width: 100%;
+}
+
+.text img:nth-of-type(4){
   width: 100%;
 }
 

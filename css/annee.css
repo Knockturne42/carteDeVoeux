@@ -4,7 +4,7 @@
     max-width: 100%;
 }
 .number-0 {
-    opacity: 1;
+    opacity: 0.5;
 }
 
 /*number 2*/
@@ -76,7 +76,7 @@
 
 /*number 0*/
 .number0-0 {
-    opacity: 1;
+    opacity: 0.5;
 }
 .number0-9 {
     -o-animation: show 1s 1s;
@@ -152,7 +152,7 @@
 
 /*number 1*/
 .number1-0 {
-    opacity: 1;
+    opacity: 0.5;
 }
 .number1-9 {
     -o-animation: show 1s 1s;
@@ -221,7 +221,7 @@
 
 /*number 9*/
 .number9-0 {
-    opacity: 1;
+    opacity: 0.5;
 }
 .number9-9 {
     -o-animation: show 20s 9s;
@@ -293,7 +293,7 @@
         opacity: 0;
     }
     to {
-        opacity: 1;
+        opacity: 0.5;
     }
 }
 @-moz-keyframes show {
@@ -301,7 +301,7 @@
         opacity: 0;
     }
     to {
-        opacity: 1;
+        opacity: 0.5;
     }
 }
 @-ms-keyframes show {
@@ -309,7 +309,7 @@
         opacity: 0;
     }
     to {
-        opacity: 1;
+        opacity: 0.5;
     }
 }
 @-o-keyframes show {
@@ -317,7 +317,7 @@
         opacity: 0;
     }
     to {
-        opacity: 1;
+        opacity: 0.5;
     }
 }
 @keyframes show {
@@ -325,7 +325,7 @@
         opacity: 0;
     }
     to {
-        opacity: 1;
+        opacity: 0.5;
     }
 }
 
