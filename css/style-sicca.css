@@ -42,11 +42,14 @@ body, html {
     width: 30%;
     height: 100%;
     position: absolute;
+    top: 0;
+    left: 0;
     overflow: hidden;
     background-image: url('../img/Lune_light.svg');
     background-size: 80% auto;
     background-repeat: no-repeat;
     animation: light 2s linear alternate infinite; /* Boucle d'animation ! */
+       z-index: 9;
     
 }
 
@@ -54,10 +57,13 @@ body, html {
     width: 30%;
     height: 100%;
     position: absolute;
+    top: 0;
+    left: 0;
     overflow: hidden;
     background-image: url('../img/Lune_ico.svg');
     background-size: 80% auto;
     background-repeat: no-repeat;
+    z-index: 9;
   }
 
 #etoile1 {
