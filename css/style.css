@@ -45,7 +45,7 @@ body, html {
 
 .mountain {
   position: absolute;
-  top: -300px;
+  top: -200px;
   left: -300px;
   width: 130%;
   height: auto;
@@ -62,7 +62,7 @@ body, html {
 	left: 0;
 	right: 0;
 	bottom: 0;
-
+  z-index: 11; 
 }
 
 .snow__layer {
