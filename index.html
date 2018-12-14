@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/annee.css">
 	<link rel="stylesheet" href="css/style-sicca.css">
+	<link rel="stylesheet" href="css/email.css">
 	</head>
 <body id="container">
 
@@ -449,9 +450,17 @@
 	    <img src="img/Logo-decodeur.svg" alt="">
 	  </div>
 	</section>
+<div class="mail">
+	<form id="formulaire" method="POST" action="formulaire/envoyer.php" name="formulaire">
+		<div class="email" id="emailChamp">
+			<input type="text" id="email" name="email" placeholder="entrer votre email">
+		</div>
+		<button type="submit" name="Envoyer" value="Envoyer" onclick="verificationEmail()">Envoyer</button>
+	</form>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/utils/Draggable.min.js'></script>
 <script  src="js/parallax.js"></script>
+<script  src="js/email.js"></script>
 </body>
 </html>
