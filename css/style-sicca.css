@@ -1,0 +1,378 @@
+body, html {
+	min-height: 100%;
+	background: url('../img/fond.jpg');
+  -webkit-background-size: 100%;
+  background-size: 100%;
+	background-repeat: no-repeat;
+  overflow: hidden;
+/*	background-color: red;*/
+}
+
+
+
+@-webkit-keyframes light {
+    0% {
+        opacity: 0.2;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}
+
+@keyframes light {
+    0% {
+        opacity: 0.2;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}
+
+.moonLight {
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    background-image: url('../img/Lune_light.svg');
+    background-size: 80% auto;
+    background-repeat: no-repeat;
+    animation: light 2s linear alternate infinite; /* Boucle d'animation ! */
+    
+}
+
+.moon {
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    background-image: url('../img/Lune_ico.svg');
+    background-size: 80% auto;
+    background-repeat: no-repeat;
+  }
+
+#etoile1 {
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    top: 250px;
+    left: 350px;
+    overflow: hidden;
+    background-image: url('../img/etoile.svg');
+    background-size: 5% auto;
+    background-repeat: no-repeat;
+    animation: light 1s linear alternate infinite; /* Boucle d'animation ! */
+    
+}
+
+#etoile2 {
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    top: 200px;
+    left: 750px;
+    overflow: hidden;
+    background-image: url('../img/etoile.svg');
+    background-size: 6% auto;
+    background-repeat: no-repeat;
+    animation: light 3s linear alternate infinite; /* Boucle d'animation ! */
+    
+}
+
+#etoile3 {
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    top: 100px;
+    left: 950px;
+    overflow: hidden;
+    background-image: url('../img/etoile.svg');
+    background-size: 4% auto;
+    background-repeat: no-repeat;
+    animation: light 1.2s linear alternate infinite; /* Boucle d'animation ! */
+    
+}
+
+#etoile4 {
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    top: 500px;
+    left: 1300px;
+    overflow: hidden;
+    background-image: url('../img/etoile.svg');
+    background-size: 4% auto;
+    background-repeat: no-repeat;
+    animation: light 1.8s linear alternate infinite; /* Boucle d'animation ! */
+    
+}
+
+#etoile5 {
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    top: 400px;
+    left: 1550px;
+    overflow: hidden;
+    background-image: url('../img/etoile2.svg');
+    background-size: 4% auto;
+    background-repeat: no-repeat;
+    animation: light 1.8s linear alternate infinite; /* Boucle d'animation ! */
+    
+}
+
+#etoile6 {
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    top: 200px;
+    left: 1050px;
+    overflow: hidden;
+    background-image: url('../img/etoile2.svg');
+    background-size: 4% auto;
+    background-repeat: no-repeat;
+    animation: light 1s linear alternate infinite; /* Boucle d'animation ! */
+    
+}
+
+#etoile7 {
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    top: 200px;
+    left: 1600px;
+    overflow: hidden;
+    background-image: url('../img/etoile2.svg');
+    background-size: 4% auto;
+    background-repeat: no-repeat;
+    animation: light 0.5s linear alternate infinite; /* Boucle d'animation ! */
+    
+}
+
+#etoile8 {
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    top: 300px;
+    left: 1700px;
+    overflow: hidden;
+    background-image: url('../img/etoile2.svg');
+    background-size: 6% auto;
+    background-repeat: no-repeat;
+    animation: light 1.8s linear alternate infinite; /* Boucle d'animation ! */
+    
+}
+
+#etoile9 {
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    overflow: hidden;
+    background-image: url('../img/etoile2.svg');
+    background-size: 6% auto;
+    background-repeat: no-repeat;
+    animation: light 1.8s linear alternate infinite; /* Boucle d'animation ! */
+    
+}
+
+
+
+
+.santa {
+	width: 20%;
+	height: 100%;
+	position: absolute;
+	top: 300px;
+	right: -600px;
+	bottom: 0;
+	overflow: hidden;
+	background-image: url('../img/santa.svg');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	-webkit-animation: santaMove 10s linear infinite;
+        	animation: santaMove 10s linear infinite;
+  	-webkit-perspective: 100px;
+        	perspective: 100px;
+}
+
+.eT {
+  width: 10%;
+  height: 100%;
+  position: absolute;
+  top: 300px;
+  left: -600px;
+  bottom: 0;
+  overflow: hidden;
+  background-image: url('../img/eT.svg');
+  background-size: 80% auto;
+  background-repeat: no-repeat;
+  -webkit-animation: eTMove 15s linear infinite;
+          animation: eTMove 15s linear infinite;
+    -webkit-perspective: 100px;
+          perspective: 100px;
+}
+
+.snow {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+}
+
+.snow__layer {
+	position: absolute;
+	left: -100px;
+	right: -100px;
+	-webkit-animation: wind 5s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite alternate;
+        	animation: wind 5s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite alternate;
+  	-webkit-perspective: 100px;
+        	perspective: 100px;
+  	-webkit-transform: translateX(-50px);
+      	-ms-transform: translateX(-50px);
+        	transform: translateX(-50px);
+}
+
+.snow__fall {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 2000px;
+	background-image: url(../img/snow-light.png);
+	-webkit-animation: fall 10s linear infinite;
+          	animation: fall 10s linear infinite;
+}
+
+.snow__layer:nth-child(1) {
+	-webkit-animation-duration: 35s;
+          	animation-duration: 35s;
+}
+
+.snow__layer:nth-child(1) .snow__fall {
+	background: url(../img/snow-blur.png);
+	-webkit-transform: translateZ(25px);
+          	transform: translateZ(25px);
+  	-webkit-animation-name: fallblur;
+          	animation-name: fallblur;
+          	width: 4000px;
+          	left:-2000px;
+}
+
+.snow__layer:nth-child(2) {
+	-webkit-animation: wind 5s cubic-bezier(0.4, 0, 1, 1) infinite alternate;
+     		animation: wind 5s cubic-bezier(0.4, 0, 1, 1) infinite alternate;
+
+}
+
+.snow__layer:nth-child(2) .snow__fall {
+	background: url(../img/snow-medium.png);
+	-webkit-animation-duration: 25s;
+          	animation-duration: 25s;
+}
+
+.snow__fall:nth-child(2) {
+	-webkit-animation-duration: 20s;
+          	animation-duration: 20s;
+	background-size: 500px;
+}
+
+.snow__fall:nth-child(3) {
+	-webkit-animation-duration: 10s;
+          	animation-duration: 10s;
+	background-size: 250px;
+}
+
+.snow__layer:nth-child(4) .snow__fall {
+	-webkit-animation-duration: 5s;
+          	animation-duration: 5s;
+  	-webkit-transform: translateZ(50px);
+          	transform: translateZ(50px);
+  	-webkit-animation-name: falllight;
+         	animation-name: falllight;
+}
+
+@-webkit-keyframes fall {
+  from {
+    -webkit-transform: translateY(-1000px);
+            transform: translateY(-1000px);
+  }
+}
+
+@keyframes fall {
+  from {
+    -webkit-transform: translateY(-1000px);
+            transform: translateY(-1000px);
+  }
+}
+
+@-webkit-keyframes falllight {
+  from {
+    -webkit-transform: translateY(-1000px) translateZ(50px);
+            transform: translateY(-1000px) translateZ(50px);
+  }
+}
+
+@keyframes falllight {
+  from {
+    -webkit-transform: translateY(-1000px) translateZ(50px);
+            transform: translateY(-1000px) translateZ(50px);
+  }
+}
+
+@-webkit-keyframes fallblur {
+  from {
+    -webkit-transform: translateY(-1000px) translateZ(25px);
+            transform: translateY(-1000px) translateZ(25px);
+  }
+}
+
+@keyframes fallblur {
+  from {
+    -webkit-transform: translateY(-1000px) translateZ(25px);
+            transform: translateY(-1000px) translateZ(25px);
+  }
+}
+
+@-webkit-keyframes wind {
+  to {
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+  }
+}
+
+@keyframes wind {
+  to {
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+  }
+}
+
+@keyframes santaMove {
+  to {
+    -webkit-transform: translateX(-4000px) rotate(-40deg);
+            transform: translateX(-4000px) rotate(-40deg);
+  }
+}
+
+@keyframes eTMove {
+  to {
+    -webkit-transform: translateX(4000px) translateY(-1000px);
+            transform: translateX(4000px) translateY(-1000px);
+  }
+}
