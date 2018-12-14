@@ -8,6 +8,10 @@ body, html {
 /*	background-color: red;*/
 }
 
+audio {
+  display: none;
+}
+
 .santa {
 	width: 20%;
 	height: 100%;

@@ -14,3 +14,8 @@ function parallaxIt(e, target, movement) {
         y: (relY - $this.height() / 2) / $this.height() * movement
     });
 }
+
+sound = document.getElementById('sound');
+document.addEventListener("click", function(){
+    sound.play();
+});
