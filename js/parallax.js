@@ -1,5 +1,5 @@
 $("#container").mousemove(function(e) {
-    parallaxIt(e, ".moonLight", -100);
+    parallaxIt(e, ".moonLight", -40);
     parallaxIt(e, ".moon", -30);
 });
 
