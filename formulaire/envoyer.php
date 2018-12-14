@@ -3,7 +3,7 @@ include "index.html";
 
 $email = $_POST['email'];
 
-$msg = 'Aformac vous shouaite de bonne fetes http://sicca-area.com/Aformac-dev/carteDeVoeux/';
+$msg = 'Aformac vous souhaite de bonnes fetes http://sicca-area.com/Aformac-dev/carteDeVoeux/';
 
 $from = "Dcl@Dcl.com";
  
